@@ -23,7 +23,7 @@ func times(a, b int) int {
 }
 
 func sumX(a, b int) int {
-	return a + b + a
+	return a + b + a + 1
 }
 
 func code(a, b int) int {
