@@ -1,8 +1,9 @@
 name: ci-sonarcloud 
-on:
+on: 
   pull_request:
     branches:
       - develop
+        
 
 jobs:
   run-ci:
@@ -13,4 +14,3 @@ jobs:
         with:
           go-version: 1.15
       - run: go test -coverprofile=coverage.out
-      
